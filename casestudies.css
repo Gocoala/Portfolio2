@@ -1,0 +1,75 @@
+.items
+{
+/*
+	padding: .5vw;
+*/
+	font-size: 0;
+	-ms-flex-wrap: wrap;
+	-ms-flex-direction: column;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+/*
+	display: -ms-flexbox;
+	display: -webkit-box;
+*/
+	display: flex;
+}
+
+.items div
+{
+	-webkit-box-flex: auto;
+	-ms-flex: auto;
+	flex: auto;
+	width: 0;
+	margin: .5vw;
+}
+
+.items div img
+{
+	width: 100%;
+	height: auto;
+}
+
+.layers
+{
+	background: #eaeced;
+	margin: .5vw;
+	padding: .5vw;
+/*
+	border: 1px solid black;
+*/
+}
+
+.layer
+{
+	display: none;
+}
+.layer:target
+{
+	display: block;
+}
+
+.layer .points
+{
+	
+}
+
+.flex-center
+{
+	background: black;
+	color: white;
+	border: 10px solid white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 200px;
+	resize: vertical;
+	overflow: auto;
+}
+
+.flex-center p
+{
+	margin: 0;
+	padding: 20px;
+}
+
